@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+		<head>
+				<meta charset="utf-8">
+				<title>LM Player</title>
+				<meta name="description" content="">
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+
+				<link rel="stylesheet" href="css/main.css">
+				<link rel="stylesheet" href="css/fontello.css">
+
+		</head>
+		<body>
+			<div class="forVideo">
+				<div id="videoPlayer" class="videoPlayer">
+					<video id="lmplayer" style="">
+					  <source src="movie.mp4" type="video/mp4">
+					  <!-- <source src="https://giant.gfycat.com/MealyConcernedGermanspitz.webm" type="video/webm"> -->
+					  Your browser does not support the video tag.
+					</video>
+					<div id="hidden">
+						<span id="lmp">LM Player</span>
+						<div class="videoControls">
+							<button class="icon-play" id="play"></button>
+							<div class="vol">
+								<button class="icon-volume-up" id="mute"></button>
+								<input id="volumeSlider" type="range" min="0" max="100" step="1" value="0">
+							</div>
+							<input id="progress" type="range" min="0" max="100" step="1" value="100">
+							<div id="currentTimeText" class="time"></div> <div class="time">/</div> <div id="durationTimeText" class="time"></div>
+							<div id="settings">
+								<label for="filter">Filter: </label>
+								<select name="filter" id="filter">
+									<option value="-1">none</option>
+									<option value="blur">blur</option>
+									<option value="hue">hue</option>
+									<option value="brightness">brightness</option>
+									<option value="contrast">contrast</option>
+									<option value="invert">invert</option>
+									<option value="sepia">sepia</option>
+								</select>
+							</div>
+							<button class="icon-cog cog" id="cog"></button>
+							<button class="icon-resize-full-alt" id="fullScreen"></button>
+							<!-- <progress min='0' max='100' value='10'></progress> -->
+						</div>
+					</div>
+				</div>	
+			</div>
+			<div class="content">
+				<h1>Select movie</h1>
+				<button id="m1" data-link="https://fat.gfycat.com/OrneryWhirlwindGoitered.webm">Movie1</button>
+				<button id="m2" data-link="https://giant.gfycat.com/HiddenUnderstatedBlackrussianterrier.webm">Movie2</button>
+				<button id="m3" data-link="https://fat.gfycat.com/CostlyImmaculateChrysomelid.webm">Movie3</button>
+			</div>
+			
+			
+		
+			
+		<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="js/skrypt.js"></script>
+		</body>
+</html>

@@ -54,7 +54,7 @@ video {
 #progress {
 	-webkit-appearance: none !important;
 	height: 2px;
-	width: 460px;
+	width: 400px;
 	outline: none;
 	margin: 13px 0;
 	padding: 0;
